@@ -7,10 +7,10 @@ DHT dht(2, DHT11);
 float temp, humd;
 
 // setwifi
-const char* ssid = "YONA HOME";
-const char* pass = "JOKONDOKONDO";
-unsigned long myChannelNumber = 1408714;
-const char * myWriteAPIKey = "SDW4IF29RNKRQ49W";
+const char* ssid = "xxxxxxx"; // nama wifi
+const char* pass = "xxxxxxx"; // pass wifi
+unsigned long myChannelNumber = xxxxxxx; // id channel thingspeak
+const char * myWriteAPIKey = "xxxxxxx"; // writeapi thingspeak
 WiFiClient  client;
 
 void sambunganWifi() {
