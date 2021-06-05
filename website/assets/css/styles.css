@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-font/Roboto-Regular.ttf');
+}
+
+* {
+  font-family: 'Roboto';
+  text-decoration: none;
+  list-style: none;
+  box-shadow: none !important;
+}
+
+body {
+  background: #FFF;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #A4A2A2;
+  border-radius: 10px;
+}
+
+.u-Link {
+  text-decoration: none;
+}
+
+.u-Link:hover {
+  text-decoration: none;
+}
+
+.t-shadow {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
